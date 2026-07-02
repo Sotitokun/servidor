@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.214.28.83
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1783010149847
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1783022385847
+  login: 1783008769856
+money: '0'
+last-account-name: Azure
+lastlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: -994.6999999880791
+  y: -59.0
+  z: 1181.300000011921
+  yaw: 72.28671264648438
+  pitch: 84.74998474121094
+logoutlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: 34.86964904238401
+  y: -51.0
+  z: 810.3849288679917
+  yaw: -170.2510986328125
+  pitch: 11.249950408935547
+homes:
+  home:
+    world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+    world-name: world
+    x: -982.9384850445188
+    y: 63.0
+    z: 1302.960758432134
+    yaw: -151.0616455078125
+    pitch: 6.299953460693359

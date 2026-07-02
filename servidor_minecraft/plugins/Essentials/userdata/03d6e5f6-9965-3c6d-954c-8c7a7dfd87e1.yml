@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.252.70.243
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1783017890904
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1782848463743
+  login: 1783015600001
+money: '0'
+last-account-name: ShadowProDPS
+homes:
+  home:
+    world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+    world-name: world
+    x: -999.2281506379015
+    y: 70.0
+    z: 1296.6574969387018
+    yaw: -74.56005859375
+    pitch: 41.10000991821289
+lastlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: -992.7925526709059
+  y: 63.0
+  z: 1310.699999988079
+  yaw: 85.6400375366211
+  pitch: 21.45000648498535
+logoutlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: -990.3424503741169
+  y: 63.0
+  z: 1307.713706040725
+  yaw: 99.1512680053711
+  pitch: 2.999941110610962

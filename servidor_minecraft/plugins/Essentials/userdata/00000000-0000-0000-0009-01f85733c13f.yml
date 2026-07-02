@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.119.173.175
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1782793916293
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1782794105203
+  login: 1782788421031
+money: '0'
+last-account-name: .Aurum4526
+logoutlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: 183.9179
+  y: 64.0
+  z: 20.489096
+  yaw: -116.2220458984375
+  pitch: 8.5445556640625
+homes:
+  home:
+    world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+    world-name: world
+    x: 184.30001001192093
+    y: 64.0
+    z: 20.139566
+    yaw: -42.9600830078125
+    pitch: -13.954421997070312
+lastlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: 475.75897
+  y: 69.0
+  z: -17.69998998807907
+  yaw: 178.0224151611328
+  pitch: 14.168365478515625

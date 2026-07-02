@@ -1,0 +1,293 @@
+[16:01:02] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-2-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[16:01:02] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) for Minecraft 26.1.2
+[16:01:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:01:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[16:01:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - ChestLockLite (1.1.2), Essentials (2.22.1-dev+12-776f709), Geyser-Spigot (2.10.1-SNAPSHOT), LuckPerms (5.5.57), TreeAssist (7.3.69), ViaBackwards (5.0.3), ViaVersion (5.9.1), floodgate (2.2.5-SNAPSHOT (b134-963ae91))
+[16:01:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:01:09] [ServerMain/INFO]: Loaded 1515 recipes
+[16:01:09] [ServerMain/INFO]: Loaded 1617 advancements
+[16:01:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:01:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 641.1ms
+[16:01:10] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[16:01:10] [Server thread/INFO]: Loading properties
+[16:01:11] [Server thread/INFO]: This server is running Paper version 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) (Implementing API version 26.1.2.build.60-stable)
+[16:01:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:01:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:01:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:01:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:01:12] [Server thread/INFO]: Default game type: SURVIVAL
+[16:01:12] [Server thread/INFO]: Generating keypair
+[16:01:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:01:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:01:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:01:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[16:01:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[16:01:13] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:01:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:01:13] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.9.1.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoClassDefFoundError: com/viaversion/viaversion/rewriter/ComponentRewriter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:263) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at ViaBackwards-5.0.3.jar//com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:92) ~[?:?]
+	at ViaBackwards-5.0.3.jar//com.viaversion.viabackwards.BukkitPlugin.lambda$new$0(BukkitPlugin.java:38) ~[?:?]
+	at ViaVersion-5.9.1.jar//com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:135) ~[?:?]
+	at ViaVersion-5.9.1.jar//com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:85) ~[?:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:341) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1301) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.ComponentRewriter
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 21 more
+[16:01:13] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b134-963ae91)
+[16:01:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[16:01:14] [Server thread/INFO]: [floodgate] Took 652ms to boot Floodgate
+[16:01:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[16:01:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:01:14] [Server thread/INFO]: [ChestLockLite] Loading server plugin ChestLockLite v1.1.2
+[16:01:14] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+[16:01:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:01:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:01:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[16:01:15] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.69
+[16:01:15] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
+[16:01:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+12-776f709
+[16:01:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:01:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[16:01:15] [Server thread/INFO]:         __    
+[16:01:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[16:01:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:01:15] [Server thread/INFO]: 
+[16:01:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:01:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:01:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:01:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1195ms)
+[16:01:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:01:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:01:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:01:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:01:16] [Server thread/INFO]: Preparing level "world"
+[16:01:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[16:01:17] [Server thread/INFO]: Preparing spawn area: 100%
+[16:01:17] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:01:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[16:01:17] [Server thread/INFO]: Prepared spawn area in 0 ms
+[16:01:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[16:01:17] [Server thread/INFO]: Prepared spawn area in 0 ms
+[16:01:17] [Server thread/INFO]: Done preparing level "world" (0.711s)
+[16:01:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[16:01:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[16:01:17] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[16:01:17] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
+[16:01:17] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
+[16:01:17] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
+[16:01:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b134-963ae91)
+[16:01:17] [Server thread/INFO]: [ChestLockLite] Enabling ChestLockLite v1.1.2
+[16:01:17] [Server thread/INFO]: [ChestLockLite] Database connected: /workspaces/servidor/servidor_minecraft/plugins/ChestLockLite/locks.db
+[16:01:17] [Server thread/INFO]: [ChestLockLite] ChestLockLite has been enabled!
+[16:01:17] [Server thread/INFO]: [ChestLockLite] Database initialized successfully!
+[16:01:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.1-SNAPSHOT
+[16:01:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[16:01:19] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.69
+[16:01:19] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
+[16:01:19] [Server thread/INFO]: [TreeAssist] debugging: off
+[16:01:19] [Thread-5/INFO]: [TreeAssist] Checking for updates...
+[16:01:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+12-776f709
+[16:01:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:01:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:01:19] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:01:20] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
+[16:01:20] [Server thread/INFO]: [Essentials] Using locale en
+[16:01:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:01:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:01:20] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[16:01:20] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[16:01:20] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:01:20] [Server thread/INFO]: [spark] Starting background profiler...
+[16:01:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:01:21] [Server thread/INFO]: [Geyser-Spigot] 
+[16:01:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.1-b1175 (git-master-ed861ee)
+[16:01:21] [Server thread/INFO]: [Geyser-Spigot] 
+[16:01:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:01:24] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 60375
+[16:01:24] [Server thread/INFO]: [Geyser-Spigot] Done (3.457s)! Run /geyser help for help!
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:01:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:01:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:01:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:01:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:01:24] [Server thread/INFO]: Running delayed init tasks
+[16:01:24] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:01:24] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:01:24] [Server thread/INFO]: Done (23.939s)! For help, type "help"
+[16:01:25] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.10.0, you're on: 5.9.1
+[16:01:25] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 12 build(s) behind ***
+[16:01:25] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[16:12:47] [User Authenticator #0/INFO]: UUID of player Azure is 21b80d08-f081-3dcc-8a45-fd89ac5d4175
+[16:12:47] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
+[16:12:49] [Server thread/INFO]: Azure joined the game
+[16:12:49] [Server thread/INFO]: Azure[/127.214.28.83:52879] logged in with entity id 1 at ([minecraft:overworld]-982.5771371958054, 56.0, 1281.699999988079)
+[16:28:11] [User Authenticator #1/INFO]: UUID of player Kynuri is d3868d00-3938-3b00-9c6b-f361a83123b4
+[16:28:11] [Server thread/INFO]: Kynuri joined the game
+[16:28:11] [Server thread/INFO]: Kynuri[/127.51.232.124:49543] logged in with entity id 3523 at ([minecraft:overworld]-220.69999998807907, 67.0, 96.50127659929315)
+[16:28:29] [Async Chat Thread - #0/INFO]: [Not Secure] <Azure> O.o
+[16:28:48] [Async Chat Thread - #0/INFO]: [Not Secure] <Kynuri> ola
+[16:28:53] [Async Chat Thread - #0/INFO]: [Not Secure] <Azure> aoa
+[16:35:15] [Server thread/INFO]: Kynuri lost connection: Disconnected
+[16:35:15] [Server thread/INFO]: Kynuri left the game
+[16:35:49] [Server thread/INFO]: Azure issued server command: /home aldeanoas
+[16:47:46] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.31.46.176 has disconnected for reason Please log into Xbox to join this server.
+[16:48:31] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username XanderGC27 (924)
+[16:48:31] [localSession-7-2/INFO]: [Geyser-Spigot] XanderGC27 (logged in as: XanderGC27) has connected to the Java server
+[16:48:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as .XanderGC27 joined (UUID: 00000000-0000-0000-0009-01fd875c83e4)
+[16:48:32] [Server thread/INFO]: .XanderGC27 joined the game
+[16:48:32] [Server thread/INFO]: .XanderGC27[/127.101.27.152:0] logged in with entity id 8743 at ([minecraft:overworld]1.436371, 81.0, 29.513765)
+[16:56:57] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] XanderGC27 has disconnected from the Java server because of Bedrock client disconnected
+[16:56:57] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .XanderGC27 disconnected
+[16:56:57] [Server thread/INFO]: .XanderGC27 lost connection: Disconnected
+[16:56:57] [Server thread/INFO]: .XanderGC27 left the game
+[17:43:34] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username sotitokun (1001)
+[17:43:34] [localSession-7-3/INFO]: [Geyser-Spigot] sotitokun (logged in as: sotitokun) has connected to the Java server
+[17:43:35] [Server thread/INFO]: [floodgate] Floodgate player logged in as .sotitokun joined (UUID: 00000000-0000-0000-0009-01f49d33f7df)
+[17:43:35] [Server thread/INFO]: .sotitokun joined the game
+[17:43:35] [Server thread/INFO]: .sotitokun[/127.230.142.230:0] logged in with entity id 15821 at ([minecraft:overworld]-19.69998998807907, 70.0, 45.5008)
+[17:45:40] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .sotitokun disconnected
+[17:45:40] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] sotitokun has disconnected from the Java server because of Bedrock client timed out
+[17:45:40] [Server thread/INFO]: .sotitokun lost connection: Disconnected
+[17:45:40] [Server thread/INFO]: .sotitokun left the game
+[17:55:33] [User Authenticator #2/INFO]: UUID of player Donocor is ff641551-9f4a-366e-b92e-23feaa59970d
+[17:55:35] [Server thread/INFO]: Donocor joined the game
+[17:55:35] [Server thread/INFO]: Donocor[/127.119.88.44:40871] logged in with entity id 17391 at ([minecraft:overworld]-990.5391549843622, 63.0, 1301.4661337097325)
+[17:55:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Donocor> hihi
+[17:55:57] [Async Chat Thread - #2/INFO]: [Not Secure] <Azure> hihi
+[17:59:28] [Server thread/INFO]: Donocor issued server command: /home
+[17:59:46] [Server thread/INFO]: Donocor issued server command: /sethome
+[17:59:53] [Server thread/INFO]: Donocor issued server command: /sethome
+[18:03:33] [Server thread/INFO]: Villager Villager['Fletcher'/25, uuid='019c145d-29ae-4a85-843a-d377175b4d66', l='ServerLevel[world]', x=-996.30, y=63.00, z=1303.70, cpos=[-63, 81], tl=132886, v=true] died, message: 'Fletcher was slain by Zombie'
+[18:03:49] [Server thread/INFO]: Azure was slain by Zombie
+[18:05:33] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username Maviisssss (1001)
+[18:05:33] [localSession-7-4/INFO]: [Geyser-Spigot] Maviisssss (logged in as: Maviisssss) has connected to the Java server
+[18:05:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Maviisssss joined (UUID: 00000000-0000-0000-0009-01f9abd92886)
+[18:05:34] [Server thread/INFO]: .Maviisssss joined the game
+[18:05:34] [Server thread/INFO]: .Maviisssss[/127.16.104.163:0] logged in with entity id 19294 at ([minecraft:overworld]-583.6914, 66.0, 257.98047)
+[18:06:39] [User Authenticator #3/INFO]: UUID of player ShadowProDPS is 03d6e5f6-9965-3c6d-954c-8c7a7dfd87e1
+[18:06:40] [Server thread/INFO]: ShadowProDPS joined the game
+[18:06:40] [Server thread/INFO]: ShadowProDPS[/127.252.70.243:33539] logged in with entity id 19803 at ([minecraft:overworld]-990.3424503741169, 63.0, 1307.713706040725)
+[18:06:46] [Async Chat Thread - #4/INFO]: [Not Secure] <ShadowProDPS> TRABAJEN MIERDAS
+[18:06:47] [Async Chat Thread - #4/INFO]: [Not Secure] <Donocor> :v mamahuevo
+[18:07:06] [Async Chat Thread - #4/INFO]: [Not Secure] <Donocor> ya tan los aldeanos :v
+[18:07:07] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:07:11] [Async Chat Thread - #4/INFO]: [Not Secure] <ShadowProDPS> dondeeee
+[18:07:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Azure> one of them die, zombie kill him
+[18:07:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Donocor> no te digo para que los hagas xdd
+[18:07:27] [Async Chat Thread - #4/INFO]: [Not Secure] <Azure> :)
+[18:07:34] [Async Chat Thread - #4/INFO]: [Not Secure] <ShadowProDPS> aaaaaaaa no tengo esmeraldasssss
+[18:07:43] [Async Chat Thread - #4/INFO]: [Not Secure] <Azure> i have
+[18:07:49] [Async Chat Thread - #4/INFO]: [Not Secure] <ShadowProDPS> you gay
+[18:08:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Azure> take it
+[18:08:18] [Async Chat Thread - #4/INFO]: [Not Secure] <Azure> come
+[18:08:44] [Async Chat Thread - #4/INFO]: [Not Secure] <ShadowProDPS> GRACIAS
+[18:09:41] [Server thread/INFO]: ShadowProDPS issued server command: /HOME
+[18:09:46] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:10:38] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:11:07] [Async Chat Thread - #6/INFO]: [Not Secure] <Azure> sex moment
+[18:11:15] [Async Chat Thread - #6/INFO]: [Not Secure] <ShadowProDPS> sim
+[18:14:20] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:15:43] [Async Chat Thread - #8/INFO]: [Not Secure] <Donocor> azure conseguiste la mejora de netherita
+[18:16:00] [Async Chat Thread - #8/INFO]: [Not Secure] <Azure> no, but i have 15 ingots
+[18:16:05] [Server thread/INFO]: Donocor has made the advancement [The Cutest Predator]
+[18:16:18] [Async Chat Thread - #8/INFO]: [Not Secure] <Azure> im looking for an ancient city
+[18:20:05] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:24:17] [Async Chat Thread - #10/INFO]: [Not Secure] <Azure> i foun one
+[18:24:53] [Server thread/INFO]: Azure has made the advancement [Sneak 100]
+[18:24:59] [Async Chat Thread - #10/INFO]: [Not Secure] <Donocor> XD
+[18:25:09] [Async Chat Thread - #10/INFO]: [Not Secure] <Donocor> no se mueran
+[18:25:19] [Async Chat Thread - #10/INFO]: [Not Secure] <ShadowProDPS> Ojala te atrape el warden
+[18:26:27] [Async Chat Thread - #12/INFO]: [Not Secure] <Azure> there is only a bioma
+[18:26:33] [Async Chat Thread - #13/INFO]: [Not Secure] <Azure> i cant found the city
+[18:27:35] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:29:11] [Async Chat Thread - #14/INFO]: [Not Secure] <ShadowProDPS> the city is los amigos que hicimos en el camino
+[18:29:23] [Async Chat Thread - #14/INFO]: [Not Secure] <Azure> :)
+[18:30:22] [Async Chat Thread - #14/INFO]: [Not Secure] <Donocor> madre no es la que engendra madre es la que te voy a partir cabron si no hayy aldeanos :v
+[18:31:26] [Async Chat Thread - #16/INFO]: [Not Secure] <ShadowProDPS> JAJAJAJA
+[18:31:34] [Async Chat Thread - #16/INFO]: [Not Secure] <ShadowProDPS> ESTOY HACIENDO UNO
+[18:31:53] [Async Chat Thread - #16/INFO]: [Not Secure] <ShadowProDPS> se demora en crecer el perro
+[18:32:28] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:34:00] [Async Chat Thread - #18/INFO]: [Not Secure] <Azure> uhmmmmm
+[18:34:08] [Async Chat Thread - #18/INFO]: [Not Secure] <Azure> there is a warden here
+[18:34:13] [Async Chat Thread - #18/INFO]: [Not Secure] <Azure> cause zombie spawn him
+[18:34:14] [Async Chat Thread - #18/INFO]: [Not Secure] <Donocor> XD
+[18:34:19] [Async Chat Thread - #18/INFO]: [Not Secure] <ShadowProDPS> Pegale a ver que pasa
+[18:34:50] [Async Chat Thread - #18/INFO]: [Not Secure] <Azure> im so far now
+[18:34:56] [Async Chat Thread - #18/INFO]: [Not Secure] <Donocor> se cayo
+[18:35:09] [Server thread/INFO]: Donocor lost connection: Disconnected
+[18:35:09] [Server thread/INFO]: Donocor left the game
+[18:35:15] [User Authenticator #4/INFO]: UUID of player Donocor is ff641551-9f4a-366e-b92e-23feaa59970d
+[18:35:16] [Server thread/INFO]: Donocor joined the game
+[18:35:16] [Server thread/INFO]: Donocor[/127.119.88.44:39333] logged in with entity id 36333 at ([minecraft:overworld]-1098.8052413657124, -18.0, 1578.6909395847417)
+[18:35:21] [Async Chat Thread - #18/INFO]: [Not Secure] <ShadowProDPS> vos te caiste
+[18:35:23] [Async Chat Thread - #18/INFO]: [Not Secure] <Donocor> haber
+[18:35:45] [Async Chat Thread - #18/INFO]: [Not Secure] <Donocor> si me esta llendo lento
+[18:35:59] [Async Chat Thread - #18/INFO]: [Not Secure] <Azure> -165 603 if someone wants to play with the warden
+[18:36:16] [Async Chat Thread - #18/INFO]: [Not Secure] <Donocor> toy farmeando menas de diamante para el pico de fortuna
+[18:36:46] [Async Chat Thread - #18/INFO]: [Not Secure] <Azure> i have a lot of diamonds
+[18:39:39] [Async Chat Thread - #20/INFO]: [Not Secure] <Azure> andddd
+[18:39:43] [Async Chat Thread - #20/INFO]: [Not Secure] <Azure> there is the city
+[18:42:00] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:42:57] [Async Chat Thread - #22/INFO]: [Not Secure] <Azure> Who wants to come with me?
+[18:44:07] [Server thread/INFO]: ShadowProDPS issued server command: /homr
+[18:44:10] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:44:50] [Server thread/INFO]: ShadowProDPS issued server command: /home
+[18:55:16] [Async Chat Thread - #24/INFO]: [Not Secure] <Donocor> LAG
+[18:55:36] [Server thread/WARN]: Donocor moved too quickly! 1.3065954396766983,-0.07840000152587834,-10.22792642554623
+[18:55:48] [Async Chat Thread - #25/INFO]: [Not Secure] <Donocor> tienes la fortuna 3 sky?
+[18:57:54] [Async Chat Thread - #26/INFO]: [Not Secure] <Donocor> me faltan 10 menas de diamante para los 64
+[19:02:23] [Server thread/INFO]: Donocor lost connection: Disconnected
+[19:02:23] [Server thread/INFO]: Donocor left the game
+[19:32:06] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Maviisssss disconnected
+[19:32:06] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Maviisssss has disconnected from the Java server because of Bedrock client disconnected
+[19:32:06] [Server thread/INFO]: .Maviisssss lost connection: Disconnected
+[19:32:06] [Server thread/INFO]: .Maviisssss left the game
+[19:47:44] [Async Chat Thread - #28/INFO]: [Not Secure] <ShadowProDPS> A LOOO
+[19:59:45] [Server thread/INFO]: Azure lost connection: Disconnected
+[19:59:46] [Server thread/INFO]: Azure left the game

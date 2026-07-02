@@ -1,0 +1,50 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:crafting_table": 2,
+      "minecraft:birch_log": 6
+    },
+    "minecraft:used": {
+      "minecraft:wooden_axe": 2,
+      "minecraft:crafting_table": 3,
+      "minecraft:wooden_sword": 6
+    },
+    "minecraft:killed": {
+      "minecraft:pig": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 5,
+      "minecraft:pale_oak_log": 89,
+      "minecraft:birch_sapling": 6,
+      "minecraft:stick": 6,
+      "minecraft:birch_log": 19,
+      "minecraft:crafting_table": 2,
+      "minecraft:pale_oak_sapling": 16
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 7,
+      "minecraft:time_since_rest": 11346,
+      "minecraft:walk_one_cm": 34584,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 65,
+      "minecraft:damage_dealt": 200,
+      "minecraft:play_time": 11346,
+      "minecraft:jump": 126,
+      "minecraft:time_since_death": 11346,
+      "minecraft:sprint_one_cm": 31023,
+      "minecraft:fall_one_cm": 1925,
+      "minecraft:total_world_time": 11346,
+      "minecraft:fly_one_cm": 9123,
+      "minecraft:walk_on_water_one_cm": 180
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:wooden_axe": 3,
+      "minecraft:wooden_sword": 1,
+      "minecraft:birch_planks": 32,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4790
+}

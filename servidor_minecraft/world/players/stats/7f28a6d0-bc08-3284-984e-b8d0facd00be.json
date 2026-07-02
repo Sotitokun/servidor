@@ -1,0 +1,91 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 5,
+      "minecraft:time_since_rest": 1502,
+      "minecraft:walk_one_cm": 61597,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 237,
+      "minecraft:mob_kills": 4,
+      "minecraft:damage_taken": 114,
+      "minecraft:play_time": 25112,
+      "minecraft:damage_dealt": 280,
+      "minecraft:jump": 271,
+      "minecraft:time_since_death": 25112,
+      "minecraft:sprint_one_cm": 33938,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 4145,
+      "minecraft:total_world_time": 25112,
+      "minecraft:swim_one_cm": 979,
+      "minecraft:fly_one_cm": 15585,
+      "minecraft:walk_on_water_one_cm": 1275,
+      "minecraft:crouch_one_cm": 143,
+      "minecraft:sneak_time": 468
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 36,
+      "minecraft:birch_sapling": 4,
+      "minecraft:stick": 4,
+      "minecraft:cobblestone": 17,
+      "minecraft:bamboo": 11,
+      "minecraft:white_wool": 3,
+      "minecraft:oak_planks": 1,
+      "minecraft:wildflowers": 2,
+      "minecraft:chicken": 1,
+      "minecraft:white_bed": 1,
+      "minecraft:sugar_cane": 7,
+      "minecraft:crafting_table": 2,
+      "minecraft:apple": 1,
+      "minecraft:leaf_litter": 27,
+      "minecraft:oak_log": 5,
+      "minecraft:melon_slice": 13,
+      "minecraft:birch_log": 8,
+      "minecraft:mutton": 3,
+      "minecraft:dark_oak_sapling": 4,
+      "minecraft:dark_oak_log": 87
+    },
+    "minecraft:mined": {
+      "minecraft:melon": 2,
+      "minecraft:dirt": 12,
+      "minecraft:birch_leaves": 1,
+      "minecraft:grass_block": 6,
+      "minecraft:oak_planks": 1,
+      "minecraft:cobblestone": 1,
+      "minecraft:sugar_cane": 5,
+      "minecraft:bamboo": 1,
+      "minecraft:white_bed": 1,
+      "minecraft:short_grass": 1,
+      "minecraft:oak_leaves": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:leaf_litter": 6,
+      "minecraft:oak_log": 5,
+      "minecraft:stone": 16
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 11,
+      "minecraft:crafting_table": 3,
+      "minecraft:apple": 1,
+      "minecraft:wooden_pickaxe": 17,
+      "minecraft:oak_planks": 1,
+      "minecraft:white_bed": 1,
+      "minecraft:stone_pickaxe": 5,
+      "minecraft:dirt": 33,
+      "minecraft:cobblestone": 4
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 1,
+      "minecraft:sheep": 3
+    },
+    "minecraft:crafted": {
+      "minecraft:white_bed": 1,
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:oak_planks": 20,
+      "minecraft:birch_planks": 4,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 2
+    }
+  },
+  "DataVersion": 4790
+}
