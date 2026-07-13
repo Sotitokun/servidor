@@ -1,0 +1,39 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:birch_log": 12,
+      "minecraft:birch_leaves": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 221,
+      "minecraft:walk_one_cm": 7398,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 280,
+      "minecraft:play_time": 4696,
+      "minecraft:damage_dealt": 68,
+      "minecraft:jump": 46,
+      "minecraft:time_since_death": 176,
+      "minecraft:sprint_one_cm": 11313,
+      "minecraft:fall_one_cm": 2300,
+      "minecraft:total_world_time": 4696,
+      "minecraft:fly_one_cm": 6864,
+      "minecraft:deaths": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:birch_planks": 48
+    },
+    "minecraft:picked_up": {
+      "minecraft:birch_log": 12
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:wooden_pickaxe": 11
+    }
+  },
+  "DataVersion": 4790
+}

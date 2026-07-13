@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 4,
+      "minecraft:oak_sign": 3,
+      "minecraft:leaf_litter": 3,
+      "minecraft:oak_log": 5,
+      "minecraft:grass_block": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 17998,
+      "minecraft:walk_one_cm": 58518,
+      "minecraft:walk_under_water_one_cm": 548,
+      "minecraft:damage_taken": 150,
+      "minecraft:damage_dealt": 48,
+      "minecraft:boat_one_cm": 46878,
+      "minecraft:play_time": 17998,
+      "minecraft:jump": 71,
+      "minecraft:time_since_death": 17998,
+      "minecraft:sprint_one_cm": 247,
+      "minecraft:fall_one_cm": 1140,
+      "minecraft:total_world_time": 17998,
+      "minecraft:fly_one_cm": 327,
+      "minecraft:walk_on_water_one_cm": 846
+    },
+    "minecraft:crafted": {
+      "minecraft:white_bed": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:stick": 1,
+      "minecraft:cobblestone": 1,
+      "minecraft:oak_boat": 1,
+      "minecraft:white_wool": 4,
+      "minecraft:oak_planks": 10,
+      "minecraft:cooked_porkchop": 11,
+      "minecraft:raw_iron": 64,
+      "minecraft:oak_sign": 3,
+      "minecraft:leaf_litter": 5,
+      "minecraft:coal": 8,
+      "minecraft:oak_log": 5,
+      "minecraft:mutton": 4,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:dark_oak_sapling": 2,
+      "minecraft:dark_oak_log": 6
+    },
+    "minecraft:used": {
+      "minecraft:leaf_litter": 3,
+      "minecraft:oak_sign": 2
+    }
+  },
+  "DataVersion": 4790
+}

@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.119.88.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1783036215020
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1783037585524
+  login: 1783033685830
+money: '0'
+last-account-name: Donocor
+logoutlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: -989.3088920862681
+  y: 63.0
+  z: 1331.210675334779
+  yaw: 112.49966430664062
+  pitch: 16.79991912841797
+lastlocation:
+  world: a4af50ba-4be0-45e5-b018-973be659b865
+  world-name: world_nether
+  x: 39.68585735364766
+  y: 33.0
+  z: 134.81773853665518
+  yaw: 91.6490478515625
+  pitch: 18.14995574951172
+homes:
+  home:
+    world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+    world-name: world
+    x: -999.8932032543718
+    y: 70.0
+    z: 1298.402449695954
+    yaw: -74.54996490478516
+    pitch: 25.050020217895508

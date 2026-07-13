@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.230.142.230
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1782598854343
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1783014340126
+  login: 1783014215139
+money: '0'
+last-account-name: .sotitokun
+logoutlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: -24.435286
+  y: 64.0
+  z: 52.70792
+  yaw: 80.90261840820312
+  pitch: 47.95491027832031
+homes:
+  home:
+    world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+    world-name: world
+    x: 15.017299
+    y: 63.0
+    z: -25.579687
+    yaw: 69.46429443359375
+    pitch: 27.35931396484375
+lastlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: 2.1400216
+  y: 64.0
+  z: -9.458109
+  yaw: 69.45555114746094
+  pitch: 27.357101440429688

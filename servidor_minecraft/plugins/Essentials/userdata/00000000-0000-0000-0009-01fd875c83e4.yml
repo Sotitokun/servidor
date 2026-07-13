@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.101.27.152
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1783011417437
+  login: 1783010912094
+money: '0'
+last-account-name: .XanderGC27
+logoutlocation:
+  world: 5ae8af2e-ed93-41be-984c-6562a5f70c40
+  world-name: world
+  x: -61.96122
+  y: 96.0
+  z: 395.6999899880791
+  yaw: -164.8814697265625
+  pitch: 18.442169189453125
